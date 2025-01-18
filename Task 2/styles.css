@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.stopwatch {
+    margin-top: 50px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+#timer {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.controls button:disabled {
+    background: #ddd;
+    cursor: not-allowed;
+}
+
+.controls button:not(:disabled) {
+    background: #007bff;
+    color: #fff;
+}
+
+.controls button:not(:disabled):hover {
+    background: #0056b3;
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 300px;
+    margin: 20px auto;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+#laps div {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}

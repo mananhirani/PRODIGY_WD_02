@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #f4f4f4;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.home {
+    background: #f4f4f4;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+/* Skills */
+.skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+/* Projects */
+.projects .project-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background: #fff;
+}
+
+/* Contact */
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.contact-btn:hover {
+    background: #0056b3;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
